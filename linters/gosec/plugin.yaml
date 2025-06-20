@@ -7,13 +7,13 @@ tools:
       package: github.com/securego/gosec/v2/cmd/gosec
       known_good_version: 2.22.5
       shims: [gosec]
-
 lint:
   definitions:
     - name: gosec
       files: [go]
       tools: [gosec]
       suggest_if: never
+      description: Analyzes Go code for common security issues.
       commands:
         - name: lint
           run: gosec -no-fail -fmt sarif -out=${tmpfile} ${target}
@@ -21,4 +21,3 @@ lint:
           read_output_from: tmp_file
           success_codes: [0]
           is_security: true
-

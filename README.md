@@ -56,7 +56,7 @@ trunk check enable {linter}
 | Docker          | [hadolint], [checkov]                                                                                                      |
 | Dotenv          | [dotenv-linter]                                                                                                            |
 | GitHub          | [actionlint]                                                                                                               |
-| Go              | [gofmt], [gofumpt], [goimports], [gokart], [golangci-lint], [golines], [gosec], [semgrep]                                           |
+| Go              | [gofmt], [gofumpt], [goimports], [gokart], [golangci-lint], [golines], [gosec], [semgrep]                                  |
 | GraphQL         | [graphql-schema-linter], [prettier]                                                                                        |
 | HAML            | [haml-lint]                                                                                                                |
 | HTML Templates  | [djlint]                                                                                                                   |
@@ -81,7 +81,7 @@ trunk check enable {linter}
 | Ruby            | [brakeman], [rubocop], [rufo], [semgrep], [standardrb]                                                                     |
 | Rust            | [clippy], [rustfmt]                                                                                                        |
 | Scala           | [scalafmt]                                                                                                                 |
-| Security        | [checkov], [dustilock], [gosec], [nancy], [osv-scanner], [snyk], [tfsec], [trivy], [trufflehog], [terrascan]                        |
+| Security        | [checkov], [dustilock], [gosec], [nancy], [osv-scanner], [snyk], [tfsec], [trivy], [trufflehog], [terrascan]               |
 | SQL             | [sqlfluff], [sqlfmt], [sql-formatter], [squawk]                                                                            |
 | SVG             | [svgo]                                                                                                                     |
 | Swift           | [stringslint], [swiftlint], [swiftformat]                                                                                  |
