@@ -56,7 +56,7 @@ trunk check enable {linter}
 | Docker          | [hadolint], [checkov]                                                                                                      |
 | Dotenv          | [dotenv-linter]                                                                                                            |
 | GitHub          | [actionlint]                                                                                                               |
-| Go              | [gofmt], [gofumpt], [goimports], [gokart], [golangci-lint], [golines], [semgrep]                                           |
+| Go              | [gofmt], [gofumpt], [goimports], [gokart], [golangci-lint], [golines], [gosec], [semgrep]                                  |
 | GraphQL         | [graphql-schema-linter], [prettier]                                                                                        |
 | HAML            | [haml-lint]                                                                                                                |
 | HTML Templates  | [djlint]                                                                                                                   |
@@ -81,7 +81,7 @@ trunk check enable {linter}
 | Ruby            | [brakeman], [rubocop], [rufo], [semgrep], [standardrb]                                                                     |
 | Rust            | [clippy], [rustfmt]                                                                                                        |
 | Scala           | [scalafmt]                                                                                                                 |
-| Security        | [checkov], [dustilock], [nancy], [osv-scanner], [snyk], [tfsec], [trivy], [trufflehog], [terrascan]                        |
+| Security        | [checkov], [dustilock], [gosec], [nancy], [osv-scanner], [snyk], [tfsec], [trivy], [trufflehog], [terrascan]               |
 | SQL             | [sqlfluff], [sqlfmt], [sql-formatter], [squawk]                                                                            |
 | SVG             | [svgo]                                                                                                                     |
 | Swift           | [stringslint], [swiftlint], [swiftformat]                                                                                  |
@@ -128,6 +128,7 @@ trunk check enable {linter}
 [gokart]: https://github.com/praetorian-inc/gokart
 [golangci-lint]: https://github.com/golangci/golangci-lint#readme
 [golines]: https://pkg.go.dev/github.com/segmentio/golines
+[gosec]: https://github.com/securego/gosec
 [google-java-format]: https://github.com/google/google-java-format#readme
 [graphql-schema-linter]: https://github.com/cjoudrey/graphql-schema-linter#readme
 [hadolint]: https://github.com/hadolint/hadolint#readme
